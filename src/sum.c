@@ -1,16 +1,4 @@
-
-#include <stdlib.h>
-#include <stdio.h>
-#include <math.h>
-#include <R.h>
-#include <Rmath.h>
-#include <Rinternals.h>
-
-
-#if defined _OPENMP
-  #include <omp.h>
-#endif
-
+#include "sum.h"
 
 double sumKernel(
     double * x,    /* naip image */

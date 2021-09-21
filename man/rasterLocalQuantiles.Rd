@@ -37,4 +37,3 @@ r <- raster::raster( matrix(rnorm(36),6,6))
 W <- matrix(1,3,3)
 medianR <- rasterLocalQuantiles(r,W)
 }
-

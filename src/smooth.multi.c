@@ -1,13 +1,4 @@
-#include <stdlib.h>
-#include <stdio.h>
-#include <math.h>
-#include <R.h>
-#include <Rmath.h>
-#include <Rinternals.h>
-
-#if defined _OPENMP
-  #include <omp.h>
-#endif
+#include "smooth.multi.h"
 
 // find the maximum value
 static inline double maxDouble( double * A, const size_t n) {
